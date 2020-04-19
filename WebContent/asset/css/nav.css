@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+	nav{
+		position : relative;
+		display : flex;
+		background: url("../img/main_pic.jpg") no-repeat center center;
+		background-size : cover;
+		width : 100%;
+		height: 700px;
+		
+	}
+	nav a{
+		color : #FED136;
+		text-decoration : none;	
+		font-size : 3vw;
+	}
+	
+	nav .home_button{
+		position : absolute;
+		left : 8vw;
+	}
+	
+		
+	nav ul{
+		list-style : none;
+		display: flex;
+		position : absolute;
+		right : 3vw;
+
+	}
+	nav li a{	
+		margin-right: 2vw;
+		color : white;	
+		font-size : 2vw;
+	}
+	
+	nav .nav_com{
+        background-color: rgba( 255, 255, 255, 0.5 );
+		position : absolute;
+		transform : translate(-50%, -50%)
+	}
+	
+	nav .comment{
+		font-size : 3vw;
+		top : 60%;
+		left : 50%;
+	}
+	
+	nav .comment2{
+		font-size : 2vw;
+		top : 75%;
+		left : 46%;
+	}
+	nav .button{
+		padding:14px 30px;
+		background-color: #FED136;
+		border-radius : 6px;
+		font-size : 2vw;
+		color : white;
+		bottom : 4%;
+		left : 48%;
+	}
+	
+	nav .nav_bar{
+		width : 100%;
+		height : 70px;
+		background-color: black;
+		z-index: 2;
+		}
+	

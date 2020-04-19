@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+	section{
+		height : 10vh;
+	}
+	div{
+		border : 2px solid red;
+	} 
+	
+	.container{
+ 	position : relative;
+ 	margin : 9vh 10vw 9vw 10vw;
+
+	}
+	
+	 .container .title{
+ 	text-align : center;
+ 	width : 100%;
+ 	font-size: 3vw;
+ 	display : inline-block;
+ 	margin-bottom: 50px;
+ }
