@@ -3,9 +3,6 @@
 	section{
 		height : 10vh;
 	}
-	div{
-		border : 2px solid red;
-	} 
 	
 	.container{
  	position : relative;
@@ -19,4 +16,10 @@
  	font-size: 3vw;
  	display : inline-block;
  	margin-bottom: 50px;
+ 	
  }
+ 
+ 	*{
+ 	box-sizing:border-box; 
+ 	z-index: 1;
+ 	}

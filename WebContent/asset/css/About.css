@@ -1,6 +1,28 @@
 @charset "UTF-8";
 
-#About img{
-	width : 100%;
-	
+
+#About .container .about{
+	display: flex;
+}
+
+#About .container .about img{
+	margin: 8vh 10vw 0 10vw;
+	width:20vw;	
+}
+
+#About .container .about .info{
+	width : 100%;	
+}
+
+#About .container .about .info h1{
+	font-size: 26px;
+	margin-top : 20%;	
+}
+
+#About .container .about .info .sub-info{
+	margin : 10% 10% 10% 30%;	
+}
+
+#About .container .about .info .sub-info div{
+	text-align: right;
 }
